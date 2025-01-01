@@ -1,7 +1,7 @@
 a[href*='kwamamaza'],
 .left-side-box,
 .banner300x250,
-img[src*='ads'] {
+img[src*='ad'] {
   display: none !important;
 }
 
@@ -13,7 +13,9 @@ body {
 @media (prefers-color-scheme: dark) {
   body,
   .row,
-  a {
+  a,
+  [class*='article'],
+  .fulltext {
     background-color: rgb(50, 50, 50);
     color: white !important;
   }
