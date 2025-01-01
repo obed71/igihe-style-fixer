@@ -4,3 +4,25 @@ a[href*='kwamamaza'],
 img[src*='ads'] {
   display: none !important;
 }
+
+body {
+  background-color: white;
+  background: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  body,
+  .row,
+  a {
+    background-color: rgb(50, 50, 50);
+    color: white !important;
+  }
+
+  .homenews {
+    border: none;
+  }
+
+  .title-section-v6 {
+    color: white !important;
+  }
+}
