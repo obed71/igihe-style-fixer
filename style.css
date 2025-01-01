@@ -1,0 +1,6 @@
+a[href*='kwamamaza'],
+.left-side-box,
+.banner300x250,
+img[src*='ads'] {
+  display: none !important;
+}
